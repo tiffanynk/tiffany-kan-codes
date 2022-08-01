@@ -23,5 +23,15 @@ export default {
       title: 'Description',
       type: 'string',
     },
+    {
+      name: 'startYear',
+      title: 'Start Year',
+      type: 'string',
+    },
+    {
+      name: 'endYear',
+      title: 'End Year',
+      type: 'string',
+    },
   ],
 };
