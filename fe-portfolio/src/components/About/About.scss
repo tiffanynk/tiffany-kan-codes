@@ -1,9 +1,9 @@
 .about__container {
   display: flex;
   padding: 0;
-  width: 100vw;
+  width: 100%;
   background-image: linear-gradient(to bottom right, var(--black-color) 50%, var(--primary-color) 50%);
-  height: 100vh;
+  height: 100%;
 }
 
 .app__about {

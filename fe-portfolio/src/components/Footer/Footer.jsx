@@ -10,7 +10,7 @@ const Footer = () => {
       <div>
 			<h2 className="head-text">Get in Touch</h2>
       </div>
-		  <div class="app__footer-card-container">
+		  <div className="app__footer-card-container">
         <div className="app__footer-card ">
           <img src={StaticImages.email} alt="email" />
           <a href="mailto:hello@tiffanykancode.com" className="p-text">hello@tiffankancode.com</a>
