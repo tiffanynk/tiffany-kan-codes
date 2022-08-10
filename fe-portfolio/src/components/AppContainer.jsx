@@ -15,6 +15,7 @@ const AppContainer = (Component, idName, classNames) => function HOC() {
             @2022 TIFFANY KANJANABOUT
           </p>
           <p className="p-text">All rights reserved</p>
+          <p className="p-text">Built with Sanity and React</p>
         </div>
       : null
 }

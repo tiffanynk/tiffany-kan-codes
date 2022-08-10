@@ -15,12 +15,10 @@ const Skills = () => {
 
     client.fetch(query).then((data) => {
       setExperiences(data);
-      console.log('experiences', experiences)
     });
 
     client.fetch(skillsQuery).then((data) => {
       setSkills(data);
-      console.log('skills', skills)
     });
   }, []);
 

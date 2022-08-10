@@ -3,18 +3,16 @@
   padding: 0;
   width: 100%;
   background-image: linear-gradient(to bottom right, var(--black-color) 50%, var(--primary-color) 50%);
-  height: 100%;
 }
 
 .app__about {
   flex: 1;
   display: flex;
   width: 100%;  
+  height: 100%;
   justify-content: space-between;
-
   @media screen and (max-width: 900px) {
       display: flex;
-      padding: 2rem 0;
       flex-direction: column;
       align-content: space-between;
 
@@ -24,23 +22,13 @@
     }
 }
 
-.about__left {
-  text-align: left;
-  width: fit-content;
-  @media screen and (max-width: 900px) {
-    display: flex;
-    height: max-content;
-    margin-top: 3rem;
-  }
-}
-
 .app__profile {
   display: flex;
   width: 500px;
   white-space: normal;
-  margin-top: 10rem;
+  margin-top: 20rem;
   @media screen and (max-width: 900px) {
-    margin-top: 30rem;
+    margin-top: 26rem;
     margin-left: 111px;
     height: 275px;
     width: 245px;

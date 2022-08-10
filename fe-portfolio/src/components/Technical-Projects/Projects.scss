@@ -4,6 +4,10 @@
   flex-direction: column;
   justify-content: flex-start;
   padding-right: 1rem;
+
+  @media screen and (max-width: 900px) {
+    padding-right: 0;
+  }
 }
 .app__project-header {
   display: flex;

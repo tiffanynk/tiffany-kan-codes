@@ -8,17 +8,16 @@ import './About.scss';
 const About = () => {
   return (
     <motion.div
-      whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+      whileInView={{ opacity: [0, 1] }}
       transition={{ duration: 0.5 }}
       className='app__about'
     >
-      <div className='about__left'>
         <h2 className="head-text__white">
           I am a <br/> <span>Fullstack Software Engineer</span>
           <br/>
           based in <span>Seattle</span>.
         </h2>
-      </div>
+
 
       <div className="app__profile">
         <p className='p-text__light'
